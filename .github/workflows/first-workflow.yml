@@ -20,7 +20,6 @@ jobs:
           file_or_dir: .
 
   say-hello:
-    needs: lint-yaml
     runs-on: ubuntu-latest
     steps:
       - name: Get repository name and date
